@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/keyboard_item_scroll">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <ImageButton
+                android:id="@+id/btn_numbers"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/s_0"/>
+
+            <ImageButton
+                android:id="@+id/btn_alphabets"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/s_1"/>
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</LinearLayout>
